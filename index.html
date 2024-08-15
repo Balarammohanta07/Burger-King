@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Burger King</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="restaurant-container">
+        <h1>Welcome to Virtual Burger King</h1>
+        <div class="food-menu">
+            <h3>Select Your Food</h3>
+            <label><input type="checkbox" class="food-item" value="Burger"> Burger</label>
+            <label><input type="checkbox" class="food-item" value="Fries"> Fries</label>
+            <label><input type="checkbox" class="food-item" value="Coke"> Coke</label>
+            <label><input type="checkbox" class="food-item" value="Ice Cream"> Ice Cream</label>
+        </div>
+        <button id="orderButton">Order Food</button>
+    </div>
+
+    <div class="order-status">
+        <p id="orderId"></p>
+        <div id="foodImageContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
